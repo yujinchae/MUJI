@@ -1,0 +1,68 @@
+
+/*muji.css */
+
+
+/*wrap*/
+@import url("./wrap/wrap.css")
+@import url("./wrap/media/wrap480.css");
+@import url("./wrap/media/wrap768.css");
+@import url("./wrap/media/wrap1366.css");
+@import url("./wrap/media/wrap1920.css");
+
+/*headBox*/
+@import url("./headBox/headBox.css");
+@import url("./headBox/media/headBox480.css");
+@import url("./headBox/media/headBox768.css");
+@import url("./headBox/media/headBox1366.css");
+@import url("./headBox/media/headBox1920.css");
+
+/*adBox*/
+@import url("./adBox/adBox.css");
+@import url("./adBox/media/adBox480.css");
+@import url("./adBox/media/adBox768.css");
+@import url("./adBox/media/adBox1366.css");
+@import url("./adBox/media/adBox1920.css");
+
+/*bestBox*/
+@import url("./bestBox/bestBox.css");
+@import url("./bestBox/media/bestBox480.css");
+@import url("./bestBox/media/bestBox768.css");
+@import url("./bestBox/media/bestBox1366.css");
+@import url("./bestBox/media/bestBox1920.css");
+
+/*eventBox*/
+@import url("./eventBox/eventBox.css");
+@import url("./eventBox/media/eventBox480.css");
+@import url("./eventBox/media/eventBox768.css");
+@import url("./eventBox/media/eventBox1366.css");
+@import url("./eventBox/media/eventBox1920.css");
+
+/*newBox*/
+@import url("./newBox/newBox.css");
+@import url("./newBox/media/newBox480.css");
+@import url("./newBox/media/newBox768.css");
+@import url("./newBox/media/newBox1366.css");
+@import url("./newBox/media/newBox1920.css");
+
+/*campaignBox*/
+@import url("./campaignBox/campaignBox.css");
+@import url("./campaignBox/media/campaignBox480.css");
+@import url("./campaignBox/media/campaignBox768.css");
+@import url("./campaignBox/media/campaignBox1366.css");
+@import url("./campaignBox/media/campaignBox1920.css");
+
+/*snsBox*/
+@import url("./snsBox/snsBox.css");
+@import url("./snsBox/media/snsBox480.css");
+@import url("./snsBox/media/snsBox768.css");
+@import url("./snsBox/media/snsBox1366.css");
+@import url("./snsBox/media/snsBox1920.css");
+
+/*footBox*/
+@import url("./footBox/footBox.css");
+@import url("./footBox/media/footBox480.css");
+@import url("./footBox/media/footBox768.css");
+@import url("./footBox/media/footBox1366.css");
+@import url("./footBox/media/footBox1920.css");
+
+/* @import url("./muji/media_1366.css"); */

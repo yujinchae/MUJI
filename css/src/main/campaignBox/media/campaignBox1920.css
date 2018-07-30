@@ -1,0 +1,28 @@
+/*pc full*/
+
+@media screen and (min-width: 1367px){
+
+#campaignBox {
+  max-width: 1920px;}
+
+.cam_wrap>ul {
+  width: 80%;}
+
+.cl {
+  float: left;
+  margin-bottom: 5%;}
+.cl:first-child {
+  float: right;}
+
+.cl:nth-child(1)>h3 {
+  text-align: right;}
+
+.cl div {
+  height: 420px;}
+.cl:nth-child(1) div {
+  background-position: right;
+  background-size: 1000px;}
+.cl:nth-child(2) div {
+  background-size: 1000px;}
+
+} /*== campaignBox*/

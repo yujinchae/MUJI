@@ -1,0 +1,10 @@
+/* pc */
+
+@media screen and (min-width: 769px) and (max-width: 1366px){
+
+#eventBox {
+  height: 450px;
+  background-image: url(../../../../../img/eventBox_bg.jpg);
+  background-size: 1920px 450px;}
+
+} /* eventBox.css */

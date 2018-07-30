@@ -1,0 +1,14 @@
+/*pc full*/
+
+@media screen and (min-width: 1367px) {
+
+.sns_wrap {
+  margin: 0 auto;
+  width: 90%; height: auto;
+  max-width:1350px;}
+
+.sns_wrap>ul>li {
+  width:17.5vw; max-width:270px;  height:17.5vw;
+  max-height: 270px;}
+  
+} /*==sns_wrap

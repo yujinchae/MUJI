@@ -1,0 +1,17 @@
+/*mobile*/
+
+@media screen and (max-width: 480px) {
+
+.best_wrap {
+  box-sizing: border-box;
+  padding-top: 15%;}
+
+.best_list{ /*전체 li 속성*/
+  margin-bottom: 15%;
+  width: 100%;}
+.best_list div {
+  width: 58.33333333333333vw; height: 58.33333333333333vw;
+  background-size: 57vw;}
+
+
+} /*=============media
