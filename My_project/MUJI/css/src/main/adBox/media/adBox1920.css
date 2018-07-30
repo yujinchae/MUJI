@@ -1,0 +1,11 @@
+/* pc full */
+
+@media screen and (min-width: 1367px) {
+
+#adBox {
+  height: 800px;}
+
+#adBox>h3 {
+  font-size: 5rem;}
+
+} /* ==adBox */

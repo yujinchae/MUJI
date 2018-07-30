@@ -1,0 +1,96 @@
+/*newBox.css*/
+
+#newBox {
+  box-sizing: border-box;
+  /*padding-top: 100px;*/
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%; height: auto;
+  max-width: 1920px;}
+.new_wrap {
+  width: 100%;}
+.new_wrap>h2 {
+  margin: 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+
+.new_list:last-child {
+  margin-bottom: 0;}
+
+/*사진1*/
+.new_list:nth-child(1) div {
+  background-image: url(../../../../img/new_5bl.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.new_list:nth-child(1) div:hover, .new_list:nth-child(1) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/new_5bl_2.jpg);}
+
+/*사진2*/
+.new_list:nth-child(2) div {
+  background-image: url(../../../../img/new_room.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.new_list:nth-child(2) div:hover, .new_list:nth-child(2) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/new_room_3.jpg);}
+
+/*사진3*/
+.new_list:nth-child(3) div {
+  background-image: url(../../../../img/Caramel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.new_list:nth-child(3) div:hover, .new_list:nth-child(3) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/Caramel_2.jpg);}
+
+/*사진4*/
+.new_list:nth-child(4) div {
+  background-image: url(../../../../img/new_cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.new_list:nth-child(4) div:hover, .new_list:nth-child(4) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/new_cover_3.jpg);}
+
+.nl { /*전체 nl 속성*/
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; ; height: 85px;}
+.nl>dt, .nl>dd {
+  width: auto; height: auto;}
+.nl>dt {
+  font-size: 1rem;}
+.nl>dd:first-of-type{
+  font-weight: bold;
+  font-size: 0.9rem;}
+
+/*color 속성 nlc_1*/
+.nlc_1 {
+  width: 45px;}
+.nlc_1>li:nth-child(1){
+  background-color: #000;}
+.nlc_1>li:nth-child(2){
+  background-color: #ddd2be;}
+.nlc_1>li:nth-child(3){
+  border: 1px solid #bbb;
+  background-color: #fff;}
+
+/*color 속성 nlc_2*/
+.nlc_2{
+  width: 15px;}
+.nlc_2>li{
+  background-color: #96A2AA;}
+
+
+/*color 속성 nlc_3*/
+.nlc_3{
+  width: 15px;}
+.nlc_3>li{
+  background-color: #C5A376;}
+
+/*color 속성 nlc_4*/
+.nlc_4 {
+  width: 15px;}
+.nlc_4>li{
+  background-color: #2D3A4A;}

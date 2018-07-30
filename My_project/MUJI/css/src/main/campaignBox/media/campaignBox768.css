@@ -1,0 +1,15 @@
+/*tablet*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.cam_wrap {
+  padding-bottom: 200px;}
+
+.cl div {
+  height: 200px;}
+.cl:nth-child(1) div {
+  background-size: 768px;}
+.cl:nth-child(2) div {
+  background-size: 768px;}
+
+} /*== campaignBox*/
