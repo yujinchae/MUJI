@@ -1,11 +1,7 @@
 /*mobile*/
 
 @media screen and (max-width: 480px){
-
-#adBox {
-  height: 440px;}
-
-#adBox>h3 {
-  font-size: 2rem;}
+#adBox li {
+  width: 93.75vw; height: 93.75vw;}
 
 } /* ==adBox */
