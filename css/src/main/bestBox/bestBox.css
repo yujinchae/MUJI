@@ -1,17 +1,19 @@
 /*bestBox.css*/ 
 
 #bestBox {
-  box-sizing: border-box; 
-  /*padding-top: 100px;*/
-  padding-bottom: 100px;
+  padding-top: 16rem;
+  padding-bottom: 20rem;
   margin: 0 auto;
   width: 100%; height: auto;
   max-width: 1920px;}
 .best_wrap {
   width: 100%;}
-.best_wrap>h2 {
-  margin: 5% 10%; font-size: 1.2rem;
-  height: 40px;}
+.best_wrap h2 {
+  margin: auto;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  width: auto; height: 40px;}
 .best_wrap>ul {
   width: 100%; height: 90%;}
 
@@ -31,7 +33,7 @@
   background-image: url(../../../../img/best_sneakers_2.jpg);}
 .best_list div {
   margin: auto;}
-  
+
 /*사진2*/
 .best_list:nth-child(2) div {
   background-image: url(../../../../img/best_pen.jpg);

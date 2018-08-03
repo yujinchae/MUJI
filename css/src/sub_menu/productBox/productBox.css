@@ -9,7 +9,9 @@
 .pro_wrap {
   width: 100%;}
 .pro_wrap h2 {
-  margin: 5% 10%; font-size: 1.2rem;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
   height: 40px;}
 
 
@@ -88,3 +90,6 @@
   padding: 1rem;
   border: 1px solid #333;
   font-size: 1rem;}
+
+.pro_wrap p {
+  text-align: center;}

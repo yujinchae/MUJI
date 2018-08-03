@@ -1,7 +1,8 @@
 /* snsBox.css */
 
 #snsBox {
-  padding-bottom: 200px;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
   width: 100%; height: auto;
   max-width: 1920px;}
 
@@ -19,8 +20,11 @@
   background-repeat: no-repeat;}
 
 #snsBox>h2{
-  margin: 5% 15%; font-size: 1.2rem;
-  height: 40px;}
+  margin: auto;
+  padding-bottom: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  width: auto; height: 40px;}
 
 /*사진*/
 .sns_wrap>ul>li:nth-child(1)>a {

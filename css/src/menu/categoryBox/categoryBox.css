@@ -7,7 +7,10 @@
   width: 90%; height: auto;
   max-width: 1920px;}
 .cat_wrap h2 {
-  margin: 10% 5% 5% 5%; font-size: 1.2rem;
+  padding: 10rem 0;
+  margin: auto; 
+  text-align: center;
+  font-size: 2rem;
   height: 40px;}
 .cat_wrap ul {
   width: 100%; height: auto;}

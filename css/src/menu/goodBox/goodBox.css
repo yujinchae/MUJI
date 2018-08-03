@@ -7,7 +7,9 @@
   width: 100%; height: auto;
   max-width: 1920px;}
 #goodBox h2 {
-  margin: 15% 10% 5% 10%; font-size: 1.2rem;
+  margin: 15% 10% 5% 10%;
+  font-size: 2rem;
+  text-align: center;
   height: 40px;}
 .good_wrap {
   width: 100%;}

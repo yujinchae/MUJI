@@ -9,7 +9,9 @@
 .elc_wrap {
   width: 100%;}
 .elc_wrap h2 {
-  margin: 5% 10%; font-size: 1.2rem;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
   height: 40px;}
 
 
@@ -109,3 +111,4 @@
 .el>dd:first-of-type{
   font-weight: bold;
   font-size: 0.9rem;}
+

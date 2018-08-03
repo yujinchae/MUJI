@@ -1,17 +1,18 @@
 /*newBox.css*/
 
 #newBox {
-  box-sizing: border-box;
-  /*padding-top: 100px;*/
-  padding-bottom: 100px;
+  padding-top: 16rem;
+  padding-bottom: 20rem;
   margin: 0 auto;
   width: 100%; height: auto;
   max-width: 1920px;}
 .new_wrap {
   width: 100%;}
 .new_wrap>h2 {
-  margin: 5% 10%; font-size: 1.2rem;
-  height: 40px;}
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+  width: auto; height: 40px;}
 
 .new_list:last-child {
   margin-bottom: 0;}
