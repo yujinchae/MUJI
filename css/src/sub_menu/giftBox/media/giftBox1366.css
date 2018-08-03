@@ -8,7 +8,7 @@
 .gift_list{ /*전체 li 속성*/
   float: left;
   width: 25%; height: 50%;}
-.gift_list div {
+.gift_list a {
   width: 90%; height: 230px;
   background-size: contain;}
 
