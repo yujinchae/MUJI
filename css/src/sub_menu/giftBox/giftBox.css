@@ -1,0 +1,57 @@
+/* giftBox.css */
+
+#giftBox {
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%; height: auto;
+  max-width: 1920px;}
+.gift_wrap {
+  width: 100%;}
+.gift_wrap h2 {
+  margin: 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+
+
+.gift_wrap ul {
+  margin: auto;
+  width: 80%; height: 90%;}
+
+.gift_list:last-child {
+  margin-bottom: 0;}
+.gift_list a {
+  display: block;
+  margin: auto;
+  width: auto; height: auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;}
+
+/* 사진 */
+.gift_list:nth-child(1) a {
+  background-image: url(../../../../img/gift_bucket.jpg);
+  background-size: 100px 100px;}
+.gift_list:nth-child(2) a {
+  background-image: url(../../../../img/gift_bicycle_2.jpg);}
+.gift_list:nth-child(2) a:hover, 
+.gift_list:nth-child(2) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/gift_bicycle.jpg);}
+.gift_list:nth-child(3) a {
+  background-image: url(../../../../img/gift_game.jpg);}
+.gift_list:nth-child(4) a {
+  background-image: url(../../../../img/gift_memo.jpg);}
+
+
+.gl { /*전체 dl 속성*/
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; height: 85px;}
+.gl>dt, .gl>dd {
+  width: auto; height: auto;}
+.gl>dt {
+  font-size: 1rem;}
+.gl>dd:first-of-type{
+  font-weight: bold;
+  font-size: 0.9rem;}

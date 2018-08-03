@@ -1,0 +1,16 @@
+/*tablet*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.pro_wrap {
+  box-sizing: border-box;
+  padding-top: 10%;}
+
+.pro_list{ /*전체 li 속성*/
+  float: left;
+  margin-bottom: 15%;
+  width: 33%;}
+.pro_list a {
+  width: 100%; height: 200px;}
+
+} 

@@ -1,0 +1,90 @@
+/* productBox.css */
+
+#productBox {
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%; height: auto;
+  max-width: 1920px;}
+.pro_wrap {
+  width: 100%;}
+.pro_wrap h2 {
+  margin: 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+
+
+.pro_wrap ul {
+  margin: auto;
+  width: 80%; height: 90%;}
+
+.pro_list:last-child {
+  margin-bottom: 0;}
+.pro_list a {
+  display: block;
+  margin: auto;
+  width: auto; height: auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;}
+
+/* 사진 */
+.pro_list:nth-child(1) a {
+  background-image: url(../../../../img/light_hand.jpg);}
+.pro_list:nth-child(1) a:hover, 
+.pro_list:nth-child(1) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_hand_2.jpg);}
+.pro_list:nth-child(2) a {
+  background-image: url(../../../../img/light_led.jpg);}
+.pro_list:nth-child(2) a:hover, 
+.pro_list:nth-child(2) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_led_2.jpg);}
+.pro_list:nth-child(3) a {
+  background-image: url(../../../../img/light_table.jpg);}
+.pro_list:nth-child(3) a:hover,
+.pro_list:nth-child(3) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_table_3.jpg);}
+.pro_list:nth-child(4) a {
+  background-image: url(../../../../img/light_floar.jpg);}
+.pro_list:nth-child(4) a:hover, 
+.pro_list:nth-child(4) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_floar_3.jpg);}
+.pro_list:nth-child(5) a {
+  background-image: url(../../../../img/light_stand.jpg);}
+.pro_list:nth-child(5) a:hover, 
+.pro_list:nth-child(5) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_stand_2.jpg);}
+.pro_list:nth-child(6) a {
+  background-image: url(../../../../img/light_f_stand.jpg);}
+.pro_list:nth-child(6) a:hover, 
+.pro_list:nth-child(6) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/light_f_stand_2.jpg);}
+
+.pl { /*전체 dl 속성*/
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; height: 85px;}
+.pl>dt, .pl>dd {
+  width: auto; height: auto;}
+.pl>dt {
+  font-size: 1rem;}
+.pl>dd:first-of-type{
+  font-weight: bold;
+  font-size: 0.9rem;}
+
+.plusbtn {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%; height: auto;}
+.plusbtn button {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #333;
+  font-size: 1rem;}

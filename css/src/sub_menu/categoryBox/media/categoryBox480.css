@@ -1,0 +1,9 @@
+/* mobile */
+
+@media screen and (max-width: 480px){
+
+  .cat_li {
+    margin-right: 3%;
+    width: 26.99875vw; height: 14.58333333333333vw;}
+
+} /* sub_menu */

@@ -1,4 +1,18 @@
-# .gitignore
-**/*.psd
+# gitignore의 한줄 주석
+
+# prepros
+prepros-6.config
+**/prepros-6.config
+
+# ai, psd
+*.ai
 **/*.ai
+*.psd
+**/*.psd
+
+# xlsx
 **/*.xlsx
+
+# notignore
+notignore
+**/notignore

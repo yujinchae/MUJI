@@ -1,0 +1,25 @@
+/* tablet */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+#eventBox {
+  width: 100%; height: auto;}
+.event_wrap {
+  margin: auto;
+  width: 80%; height: auto;}
+.event_wrap>ul {
+  width: 100%; height: auto;}
+.event {
+  width: 100%; height: auto;
+  margin: 10% 0;}
+.event a {
+  width: auto; height: auto;}
+.event div {
+  float: left;
+  margin-bottom: 10px;
+  width: 100%; height: 250px;}
+.evnet h3 {
+  text-align: center;}
+
+  
+}

@@ -1,0 +1,21 @@
+/*mobile*/
+
+@media screen and (max-width: 480px) {
+
+.pro_wrap {
+  box-sizing: border-box;
+  padding-top: 15%;}
+
+.pro_list{ /*전체 li 속성*/
+  float: left;
+  margin-bottom: 15%;
+  margin-right: 10%;
+  width: 40%;}
+.pro_list:nth-child(2n){
+  float: right;
+  margin-right: 0;}
+.pro_list a {
+  width: 100%; height: 160px;
+  background-size: contain;}
+
+} 

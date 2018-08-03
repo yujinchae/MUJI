@@ -1,12 +1,24 @@
 /* headBox.css */
-
+/*
 #headBox {
   width: 100%; height: auto;}
 
 .head_wrap {
+  position: relative;
+  margin: auto;
   width: 100%; height: auto;
   max-width: 1920px;}
-  
+
+h1 {
+  margin: auto;
+  background-image: url(../../../../../img/muji_logo_9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+h1 a {
+  display: block;
+  width: 100%; height: 100%;}*/
+
 /* ==unb */
 
 /* ==cart_search */

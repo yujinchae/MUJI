@@ -1,0 +1,85 @@
+/*goodBox.css*/ 
+
+#goodBox {
+  box-sizing: border-box; 
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%; height: auto;
+  max-width: 1920px;}
+#goodBox h2 {
+  margin: 15% 10% 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+.good_wrap {
+  width: 100%;}
+.good_wrap>ul {
+  width: 100%; height: 90%;}
+
+.good_li:last-child {
+  margin-bottom: 0;}
+.good_li>a {
+  display:.glock;
+  width: auto; height: auto;}
+
+/*사진1*/
+.good_li:nth-child(1) div {
+  background-image: url(../../../../img/good_cir_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.good_li:nth-child(1) div:hover, .good_li:nth-child(1) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/good_cir_1-1.jpg);}
+.good_li div {
+  margin: auto;}
+  
+/*사진2*/
+.good_li:nth-child(2) div {
+  background-image: url(../../../../img/good_cir_2_w.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.good_li:nth-child(2) div:hover, .good_li:nth-child(2) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/good_cir_2_b.jpg);}
+
+/*사진3*/
+.good_li:nth-child(3) div {
+  background-image: url(../../../../img/good_cir_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.good_li:nth-child(3) div:hover, .good_li:nth-child(3) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/good_cir_3-1.jpg);}
+
+/*사진4*/
+.good_li:nth-child(4) div {
+  background-image: url(../../../../img/good_cir_4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;}
+.good_li:nth-child(4) div:hover, .good_li:nth-child(4) div:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/good_cir_4-1.jpg);}
+
+.color { /*색상 속성*/
+  height: 15px;
+  margin: 0 auto;
+  margin-top: 15px;}
+.color>li {
+  float: left;
+  margin: 0 1.25px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;}
+
+.gl { /*전체 dl 속성*/
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; height: 85px;}
+.gl>dt, .gl>dd {
+  width: auto; height: auto;}
+.gl>dt {
+  font-size: 1rem;}
+.gl>dd:first-of-type{
+  font-weight: bold;
+  font-size: 0.9rem;}
+
+

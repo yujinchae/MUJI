@@ -1,0 +1,20 @@
+/* eventBox */
+#eventBox h2 {
+  margin: 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+
+.event:nth-child(1) div {
+  background-image: url(../../../../img/event_1.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+.event:nth-child(2) div {
+  background-image: url(../../../../img/event_2.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+.event:nth-child(3) div {
+  background-image: url(../../../../img/event_3-1.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}

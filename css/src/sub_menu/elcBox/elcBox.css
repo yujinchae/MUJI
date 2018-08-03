@@ -1,0 +1,111 @@
+/* elcBox.css */ 
+
+#elcBox {
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%; height: auto;
+  max-width: 1920px;}
+.elc_wrap {
+  width: 100%;}
+.elc_wrap h2 {
+  margin: 5% 10%; font-size: 1.2rem;
+  height: 40px;}
+
+
+.elc_wrap ul {
+  margin: auto;
+  width: 80%; height: 90%;}
+
+.elc_list:last-child {
+  margin-bottom: 0;}
+.elc_list a {
+  display: block;
+  margin: auto;
+  width: auto; height: auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;}
+
+/* 사진 */
+.elc_list:nth-child(1) a {
+  background-image: url(../../../../img/elt_pot.jpg);}
+.elc_list:nth-child(1) a:hover, 
+.elc_list:nth-child(1) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_pot_2.jpg);}
+.elc_list:nth-child(2) a {
+  background-image: url(../../../../img/best_pen.jpg);}
+.elc_list:nth-child(2) a:hover, 
+.elc_list:nth-child(2) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/best_pen_2.jpg);}
+.elc_list:nth-child(3) a {
+  background-image: url(../../../../img/elt_toast.jpg);}
+.elc_list:nth-child(3) a:hover,
+.elc_list:nth-child(3) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_toast_2.jpg);}
+.elc_list:nth-child(4) a {
+  background-image: url(../../../../img/elt_mixer.jpg);}
+.elc_list:nth-child(5) a {
+  background-image: url(../../../../img/elt_handmix.jpg);}
+.elc_list:nth-child(5) a:hover, 
+.elc_list:nth-child(5) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_handmix_2.jpg);}
+.elc_list:nth-child(6) a {
+  background-image: url(../../../../img/elt_alarm_clock.jpg);}
+.elc_list:nth-child(6) a:hover, 
+.elc_list:nth-child(6) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_alarm_clock_2.jpg);}
+.elc_list:nth-child(7) a {
+  background-image: url(../../../../img/best_cd.jpg);}
+.elc_list:nth-child(7) a:hover, 
+.elc_list:nth-child(7) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/best_cd_2.jpg);}
+.elc_list:nth-child(8) a {
+  background-image: url(../../../../img/elt_scale.jpg);}
+.elc_list:nth-child(8) a:hover, 
+.elc_list:nth-child(8) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_scale_2.jpg);}
+.elc_list:nth-child(9) a {
+  background-image: url(../../../../img/good_cir_3.jpg);}
+.elc_list:nth-child(9) a:hover, 
+.elc_list:nth-child(9) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/good_cir_3-1.jpg);}
+.elc_list:nth-child(10) a {
+  background-image: url(../../../../img/elt_btspeaker.jpg);}
+.elc_list:nth-child(10) a:hover, 
+.elc_list:nth-child(10) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_btspeaker_2.jpg);}
+.elc_list:nth-child(11) a {
+  background-image: url(../../../../img/elt_d_clock_s.jpg);}
+.elc_list:nth-child(11) a:hover, 
+.elc_list:nth-child(11) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_d_clock_s_2.jpg);}
+.elc_list:nth-child(12) a {
+  background-image: url(../../../../img/elt_d_clock.jpg);}
+.elc_list:nth-child(12) a:hover, 
+.elc_list:nth-child(12) a:focus {
+  transition: all 500ms ease;
+  background-image: url(../../../../img/elt_d_clock_3.jpg);}
+
+.el { /*전체 dl 속성*/
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; height: 85px;}
+.el>dt, .el>dd {
+  width: auto; height: auto;}
+.el>dt {
+  font-size: 1rem;}
+.el>dd:first-of-type{
+  font-weight: bold;
+  font-size: 0.9rem;}

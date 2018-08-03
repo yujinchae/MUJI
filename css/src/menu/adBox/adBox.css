@@ -1,0 +1,16 @@
+/* adBox */
+
+#adBox {
+  width: 100%; height: auto;}
+
+.ad_wrap {
+  position: relative;
+  margin: auto;
+  width: 100%; height: 90%;}
+
+.ad_wrap>div {
+  width: 100%;
+  background-image: url(../../../../img/img_circulator_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}

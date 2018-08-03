@@ -1,0 +1,15 @@
+/* pc */
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+.gift_wrap>ul {
+  height: auto;}
+
+.gift_list{ /*전체 li 속성*/
+  float: left;
+  width: 25%; height: 50%;}
+.gift_list div {
+  width: 90%; height: 230px;
+  background-size: contain;}
+
+} 

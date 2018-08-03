@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
   <!-- fontawesome -->
-  <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css"> -->
 
   <!-- meta:vp -->
   <meta name="viewport" 
@@ -24,13 +24,263 @@
   < [!endif] -->
 
   <!--favicon-->
-  <link rel="apple-touch-icon" href="../img/muji_logo_5.png" />
-  <link rel="shortcut icon" type="image/x-icon" href="../img/muji_logo_5.png" />
+  <link rel="apple-touch-icon" href="../img/muji_logo_8.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/muji_logo_8.png" />
 
-  <title>무지 메뉴</title>
+  <title>무지의 메뉴를 소개합니다.</title>
 </head>
 <body>
-  <div id="wrap"></div>
+  <div id="wrap">
+
+    <header id="headBox">
+     <div class="head_wrap">
+      <h1>
+        <a href="#">
+          <span class="hidden">muji</span>
+        </a>
+      </h1>
+
+      <nav class="unb pc">
+        <h2 class="hidden">user navigation bar</h2>
+        <ul>
+          <li><a href="#">언어</a></li>
+          <li><a href="#">매장 정보</a></li>
+        </ul>
+      </nav> <!-- pc,pc full용 unb -->
+
+      <div class="cart_search">
+        <ul>
+          <li><a href="#"><i class="fas fa-shopping-cart icon"></i><span class="icon_text">장바구니</span></a></li>
+          <li> <a href="#"><i class="fas fa-search icon"></i><span class="icon_text">검색하기</span></a></li>
+        </ul>
+      </div> <!-- 장바구니와 검색하기 아이콘 -->
+
+      <div class="search_area">
+        <form action="#" method="get">
+          <fieldset>
+            <legend class="hidden">자료검색</legend>
+            <label for="search" class="hidden">검색 내용을 입력하세요.</label> 
+            <input type="search" id="search" value="" name="search" placeholder="검색할 내용을 이곳에 입력하세요." />
+            <!-- <div id="search_2"> -->
+              <button type="submit" name="search_2" id="search_2">
+                검색
+             </button>
+            <!-- </div> -->
+          </fieldset>
+        </form> <!-- 검색 아이콘 클릭하면 나오는 영역 -->
+      </div>
+
+      <div class="gnb_btn">
+        <button type="button">
+          <span class="hidden">gnb</span>
+        </button>
+      </div>
+
+      <nav class="gnb_area">
+        <h2 class="hidden">global navigation bar</h2>
+        
+        <div class="unb mob">
+          <h3 class="hidden">utility navigation</h3>
+          <ul>
+            <li><a href="#">언어</a></li>
+            <li><a href="#">매장 정보</a></li>
+          </ul>
+        </div>
+        <div class="gnb">
+          <h3 class="hidden">global navigation</h3>
+          <div class="category">
+            <li>
+              <a href="#">About MUJI</a>
+              <ul class="menu menu_1">
+                <li><a href="#">MUJI 이야기</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">의류 잡화</a>
+              <ul class="menu menu_2">
+                <li><a href="#">여성복</a></li>
+                <li><a href="#">남성복</a></li>
+                <li><a href="#">아동복/마더니티</a></li>
+                <li><a href="#">이너웨어</a></li>
+                <li><a href="#">그 외 액세서리</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">생활 잡화</a>
+              <ul class="menu menu_3">
+                <li><a href="#">패브릭</a></li>
+                <li><a href="#">가구/인테리어</a></li>
+                <li><a href="#">주방/생활용품</a></li>
+                <li><a href="#">헬스/뷰티/아로마</a></li>
+                <li><a href="#">전자제품</a></li>
+                <li><a href="#">문구</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">식품</a>
+              <ul class="menu menu_4">
+                <li><a href="#">과자/음료/소스</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">캠페인/특집</a>
+              <ul class="menu menu_5">
+                <li><a href="#">MUJI 캠페인</a></li>
+                <li><a href="#">MUJI 특집</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </nav> <!-- pc,pcfull에서는 보이고 mob,tab에서는 숨겨지는 gnb 영역. mob,tab용 unb도 있다. -->
+     </div>
+    </header> <!-- ==========================#headBox -->
+  
+    <article id="adBox">
+      <h2 class="hidden">제품 광고</h2>
+      <div class="ad_wrap">
+        <div><span class="hidden">무인양품의 서큘레이터는 대량의 바람을 멀리까지 보내어 방 안의 공기를 순환시킵니다.</span></div>
+        <h3>실내의 공기를<br />움직이는 바람.</h3>
+      </div>
+    </article> <!-- ============#adBox -->
+
+    <section id="categoryBox">
+      <div class="cat_wrap">
+      <h2>생활 잡화</h2>
+
+      <ul class="clearfix">
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>패브릭</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>가구ㆍ<br />인테리어</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>주방ㆍ<br />생활용품</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>헬스ㆍ뷰티<br />ㆍ아로마</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>화장품</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>전자제품<br />ㆍ기프트</span>
+          </a>
+        </li>
+        <li class="cat_li">
+          <a href="#">
+            <div></div><span>문구</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </section> <!-- ===========#categoryBox -->
+
+    <section id="goodBox">
+      <h2>추천 상품</h2>
+     <div class="good_wrap">
+
+      <ul class="clearfix">
+        <li class="good_li">
+          <a href="#">
+            <div><span class="hidden">신발 이미지</span></div>
+          </a>
+            <dl class="gl">
+              <dt>USB 데스크팬</dt>
+              <dd>33,000원</dd>
+            </dl>
+        </li>
+
+        <li class="good_li">
+          <a href="#">
+            <div></div>
+          </a>
+            <dl class="gl">
+              <dt>선풍기(저소음팬)</dt>
+              <dd>80,100원</dd>
+            </dl>
+        </li>
+
+        <li class="good_li">
+          <a href="#">
+            <div></div>
+          </a>
+            <dl class="gl">
+              <dt>DC 선풍기</dt>
+              <dd>469,000원</dd>
+            </dl>
+        </li>
+
+        <li class="good_li">
+          <a href="#">
+            <div></div>
+          </a>
+            <dl class="gl">
+              <dt>선풍기(서큘레이터 기능)</dt>
+              <dd>125,100원</dd>
+            </dl>
+        </li>
+      </ul>
+     </div>
+    </section> <!-- ==============#goodBox -->
+
+    <article id="eventBox">
+      <h2>캠페인/기획전</h2>
+      <div class="event_wrap">
+        <ul class="clearfix">
+          <li class="event">
+            <a href="#">
+              <div></div>
+            <h3>[판매개시] 온라인 스토어에서도 이제 만나보세요.</h3>
+            </a>
+          </li>
+          <li class="event">
+            <a href="#">
+              <div></div>
+            <h3>특별한 손님과 함께하는 즐거운 다과 시간</h3>
+            </a>
+          </li>
+          <li class="event">
+            <a href="#">
+              <div></div>
+            <h3>2018 s/s 의류잡화 시즌오프가 시작되었습니다.</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article> <!-- ==========#eventBox -->
+
+    <footer id="footBox">
+      <div class="foot_wrap">
+        <h2><span class="hidden">MUJI</span></h2>
+        <ul class="sns_icon">
+          <li><a href="#"><span class="hidden">twitter</span></a></li>
+          <li><a href="#"><span class="hidden">instagram</span></a></li>
+          <li><a href="#"><span class="hidden">facebook</span></a></li>
+        </ul>
+        <p class="hidden">고객 만족 센터: 1577-2892</p>
+        <p class="hidden">MUJI 온라인 스토어는 롯데닷컴 LECS(www.lecs.com)을 이용하고 있습니다.</p>
+        <p>copyright 1996-2013, LOTTE.com.inc ALL right reserved.</p>
+
+      </div>
+    </footer> <!-- ===========#footBox -->
+
+  </div> <!-- ================#wrap -->
 
 
   <!--javascript-->

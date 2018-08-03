@@ -2,39 +2,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 1366px){
 
-#headBox {
-  height: 200px;}
-.head_wrap {
-  position: relative;
-  margin: auto;
+/*.head_wrap {
   width: 80%;}
 h1 {
-  margin: auto;
   width: 150px; height: 100px;
-  background-image: url(../../../../../img/muji_logo_5.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 130px 100px;}
-h1>a {
-  width: inherit; height: inherit;}
-
-/* ==unb */
-.unb.pc {
-  position: absolute; top: 5%; left: 5%;
-  width: auto; height: auto;
-  background-color: #fff;}
-.pc>ul {
-  width: auto; height: auto;}
-.pc>ul>li {
-  float: left;
-  margin-right: 5px;
-  width: 80px; height: 30px;}
-.pc>ul>li:last-of-type {
-  margin-right: 0;}
+  background-size: 130px 100px;}*/
 
 /* ==cart_search */
-/*.cart_search {display: none;}*/
-.cart_search {
+/*.cart_search {
   position: absolute;
   top: 3%; right: 5%;
   padding: 9px; box-sizing: border-box;
@@ -50,11 +25,11 @@ h1>a {
   width: inherit; height: inherit;}
 .icon {
   display: none;}
-
+*/
 
 /* ==search_area */
 /*.search_area {display: none;}*/
-.search_area {
+/*.search_area {
   margin: 20px auto;
   width: 70%; height: 50px;
   background-color: #fff;}
@@ -86,16 +61,13 @@ h1>a {
   transform: translate(-30%);
   color: #fff;
   background-color: #000;}
-
+*/
 /* ==gnb */
-.gnb_area {
+/*.gnb_area {
   margin: 0 auto;
   box-sizing: border-box; padding: 1rem;
-  width: 100%; height: auto; 
-  /*border-top: 2px solid #282828;*/
-  /*border-radius: 10px;*/
-  border-bottom: 2px solid #282828; 
-  /*background-color: #282828;}*/ }
+  width: 100%; height: auto;
+  border-bottom: 2px solid #282828;}
 
 .gnb_btn {display: none;}
 .unb.mob {display: none;}
@@ -113,6 +85,6 @@ h1>a {
 .gnb>li:last-of-type {
   margin-right: 0;}
 .gnb>li>a:focus, .gnb>li>a:hover {
-  border-bottom: 2px solid #000;}
+  border-bottom: 2px solid #000;}*/
 
 } /* ===========headBox */

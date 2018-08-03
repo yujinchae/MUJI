@@ -1,0 +1,16 @@
+/* pc */
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+  .cat_li {
+    margin-bottom: 30px;
+    margin-right: 2.65%;
+    width: 23%; height: 130px;}
+  .cat_li:nth-child(4n) {
+    float: right;
+    margin-right: 0;}
+  .cat_li span {
+    box-sizing: border-box;
+    padding-top: 45px;}
+  
+}

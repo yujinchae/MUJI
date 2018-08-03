@@ -1,0 +1,16 @@
+/*tablet*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.elc_wrap {
+  box-sizing: border-box;
+  padding-top: 10%;}
+
+.elc_list{ /*전체 li 속성*/
+  float: left;
+  margin-bottom: 15%;
+  width: 33%;}
+.elc_list a {
+  width: 100%; height: 200px;}
+
+} 

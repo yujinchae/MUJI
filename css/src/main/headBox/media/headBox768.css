@@ -2,24 +2,14 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-#headBox {
-  position: relative;}
-.head_wrap>h1 {
-  margin: auto;
+/*.head_wrap>h1 {
   width: 100px; height: 80px;}
 .head_wrap>h1>a {
-  display: block;
   margin: auto;
-  width: 100%; height: 100%;
-  background-image: url(../../../../../img/muji_logo_5.png);
-  background-repeat: no-repeat;
-  background-size: contain;}
-
-/* ==unb pc,pc full용 unb == */
-.unb.pc {display: none;}
+  width: 100%; height: 100%;}*/
 
 /* ==cart_search 장바구니와 검색하기 아이콘== */
-.cart_search {
+/*.cart_search {
   position: absolute;
   top: 4%; right: 5%;
   width: 80px; height: 30px;}
@@ -36,11 +26,11 @@
 .icon {
   font-size: 30px;
   width: inherit; height: inherit;}
-.icon_text {font-size: 0;}
+.icon_text {font-size: 0;}*/
 
 /* search_area 검색 아이콘 클릭하면 나오는 영역 */
 /*.search_area {display: none;}*/
-.search_area {
+/*.search_area {
   margin: 20px auto;
   width: 70%; height: 50px;
   background-color: #fff;}
@@ -71,26 +61,26 @@
   width:400%; 
   transform: translate(-30%);
   color: #fff;
-  background-color: #000;}
+  background-color: #000;}*/
 
 /* gnb_btn 메뉴 버튼 */
-.gnb_btn {
+/*.gnb_btn {
   position: absolute; top: 4%; left: 5%;
   width: 30px; height: 30px;
   background-color: #dda;}
 .gnb_btn>button {
   cursor: pointer;
-  width: inherit; height: inherit;}
+  width: inherit; height: inherit;}*/
 
 /* gnb_area 메뉴 영역 */
-.gnb_area {
+/*.gnb_area {
   position: relative;
   margin: auto;
   padding: 15px; box-sizing: border-box;
-  width: 100%; height: auto;}
+  width: 100%; height: auto;}*/
 
 /* unb.mob 모바일,패드에서만 보이는 언어, 매장 정보 */
-.unb.mob{
+/*.unb.mob{
   box-sizing: border-box;
   padding: 15px 70px;
   width: 100%; height: 50px;}
@@ -104,11 +94,11 @@
   float: right;}
 .unb.mob a {
   display: block;
-  text-align: center;}
+  text-align: center;}*/
 
 
 /* gnb 메뉴 pc,pcfull에서는 보이고 mob,tab에서는 숨겨지는 gnb 영역. mob,tab용 unb도 있다. */
-.gnb {
+/*.gnb {
   box-sizing: border-box; padding: 1rem 2rem;
   width: 100%; height: auto;}
 .category {
@@ -124,10 +114,10 @@
   text-align: center;
   font-size: 1.5rem;}
 .category>li>a>span {
-  width: auto; height: auto;}
+  width: auto; height: auto;}*/
 
 /* gnb category 하위 메뉴 */
-.menu {
+/*.menu {
   width: 130px; height: auto;}
 .menu>li {
   width: auto; height: auto;}
@@ -135,7 +125,7 @@
   border-bottom: 1px solid #282828;}
 .menu>li>a {
   display: block;
-  text-align: center;}
+  text-align: center;}*/
 
 
 

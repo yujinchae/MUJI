@@ -1,0 +1,18 @@
+/* tablet */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.good_wrap {
+  box-sizing: border-box;
+  padding-top: 10%;}
+
+.good_li{ /*전체 li 속성*/
+  float: left;
+  margin-bottom: 15%;
+  width: 50%;}
+.good_li div {
+  width: 36.45833333333333vw; height: 36.45833333333333vw;
+  background-size: 37vw;}
+
+
+}

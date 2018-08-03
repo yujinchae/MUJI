@@ -1,0 +1,13 @@
+/* pc full */
+
+@media screen and (min-width: 1367px) {
+
+.ad_wrap div {
+  height: 900px;
+  background-position: center 70%;}
+.ad_wrap h3 {
+  position: absolute;
+  top: 50%; left: 15%;
+  font-size: 2rem;}
+
+} /* adBox1920 */

@@ -1,38 +1,14 @@
-/* pc full */
+ pc full */
 
 @media screen and (min-width: 1367px){
-
-#headBox {
-  height: auto;}
+/*
 .head_wrap {
-  position: relative;
-  margin: auto;
   width: 70%;}
 h1 {
-  margin: auto;
-  width: 130px; height: 100px;
-  background-image: url(../../../../../img/muji_logo_5.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;}
-h1>a {
-  width: inherit; height: inherit;}
-
-/* ==unb pc,pc full용 unb == */
-.unb.pc {
-  position: absolute; top: 20%; left: 5%;
-  background-color: transparent;}
-.pc>ul {
-  width: auto; height: auto;}
-.pc>ul>li {
-  float: left;
-  margin-right: 5px;
-  width: 80px; height: 30px;}
-.pc>ul>li:last-of-type {
-  margin-right: 0;}
+  width: 130px; height: 100px;}*/
 
 /* ==cart_search 장바구니와 검색하기 아이콘== */
-.cart_search {
+/*.cart_search {
   position: absolute;
   top: 20%; right: 5%;}
 .cart_search>ul {
@@ -44,10 +20,10 @@ h1>a {
 .cart_search>ul>li>a {
   width: inherit; height: inherit;}
 .icon {
-  display: none;}
+  display: none;}*/
 
 /* search_area 검색 아이콘 클릭하면 나오는 영역 */
-.search_area {display: none;}
+/*.search_area {display: none;}*/
 /*.search_area {
   margin: 20px auto;
   width: 70%; height: 50px;
@@ -82,19 +58,19 @@ h1>a {
   background-color: #000;}*/
 
 /* gnb_btn 메뉴 버튼 */
-.gnb_btn {display: none;}
+/*.gnb_btn {display: none;}*/
 
 /* gnb_area 메뉴 영역 */
-.gnb_area {
+/*.gnb_area {
   margin: 0 auto;
-  width: 100%; height: auto;}
+  width: 100%; height: auto;}*/
 
 /* unb.mob 모바일,패드에서만 보이는 언어, 매장 정보 */
-.unb.mob {
-  display: none;}
+/*.unb.mob {
+  display: none;}*/
 
 /* gnb 메뉴 pc,pcfull에서는 보이고 mob,tab에서는 숨겨지는 gnb 영역. mob,tab용 unb도 있다. */
-.gnb {
+/*.gnb {
   box-sizing: border-box; padding: 1.5rem;
   margin: 0 auto;
   width: 100%; height: 100px;}
@@ -112,10 +88,10 @@ h1>a {
 
 .category>li>a:focus, .category>li>a:hover {
   font-weight: bold;
-  transition: all 100ms ease;}
+  transition: all 100ms ease;}*/
 
 /* gnb category 하위 메뉴 */
-.menu {
+/*.menu {
   box-sizing: border-box; padding: 1rem;
   width: 100%; height: auto;
   background-color: #f4a;}
@@ -124,6 +100,6 @@ h1>a {
 .menu>li>a:focus, .menu>li>a:hover {
   border-bottom: 1.5px solid #777;
   transition: all 300ms ease;
-  color: #0007;}
+  color: #0007;}*/
 
-} /* ===========headBox */
+} /* ===========headBox 
