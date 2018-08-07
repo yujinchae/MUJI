@@ -1,7 +1,8 @@
 /* tablet */
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-
+#adBox h2 {
+  width: 78.125vw;}
 #adBox li {
   width: 450px; height: 450px;}
 

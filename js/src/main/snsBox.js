@@ -24,7 +24,7 @@
 
   // 일정시간마다 자동 슬라이드 
   // setInterval, clearInterval
-  var timed = 2500;
+  var timed = 4000;
   var autoStart;
 
   var startSlide = function(){

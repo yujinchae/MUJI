@@ -8,13 +8,13 @@
   max-width: 1920px;}
 .new_wrap {
   width: 100%;}
-.new_wrap>h2 {
+.new_wrap h2 {
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 10rem;
   font-size: 1.5rem;
   text-align: center;
-  width: 7%; height: 40px;}
+  width: 15%; height: 40px;}
 
 .new_list:last-child {
   margin-bottom: 0;}

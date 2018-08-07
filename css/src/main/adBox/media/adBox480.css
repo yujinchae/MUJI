@@ -1,6 +1,9 @@
 /*mobile*/
 
 @media screen and (max-width: 480px){
+
+#adBox h2 {
+  width: 78.125vw;}
 #adBox li {
   width: 93.75vw; height: 93.75vw;}
 
