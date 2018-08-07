@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
   <!-- fontawesome -->
-  <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css"> -->
 
   <!-- meta:vp -->
   <meta name="viewport" 
@@ -15,7 +15,7 @@
 
   <!--import css-->
   <link rel="stylesheet" href="../css/base/reset.css" />
-  <link rel="stylesheet" href="../css/src/detail.css" />
+  <link rel="stylesheet" href="../css/src/detail/muji_detail.css" />
 
   <!-- ie --> 
   <!-- [if lte IE 9] >
@@ -24,19 +24,62 @@
   < [!endif] -->
 
   <!--favicon-->
-  <link rel="apple-touch-icon" href="../img/muji_logo_5.png" />
-  <link rel="shortcut icon" type="image/x-icon" href="../img/muji_logo_5.png" />
+  <link rel="apple-touch-icon" href="../img/muji_logo_8.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/muji_logo_8.png" />
 
   <title>무지무지 힘들다</title>
 </head>
 <body>
   <div id="wrap">
-    <header>
+    <header id="headBox">
       <h1 class="hidden">MUJI</h1>
-    </header>
+    </header> <!-- ================== #headBox -->
 
-    
-  </div>
+    <article id="contentsBox">
+      <h2>상품 컨텐츄</h2>
+      <article id="img_wrap">
+        <h3>이미지 영역</h3>
+      </article>
+
+      <article id="contents_wrap">
+        <h3>컨텐츠 영역</h3>
+        <div class="info_area">
+          <div class="info">
+            <ul>
+              <li><a href="#">패션 잡화</a><span>/</span></li>
+              <li><a href="#">여성복</a><span>/</span></li>
+              <li><a href="#">여성 셔츠ㆍ원피스</a></li>
+            </ul>
+            <dl>
+              <dt>튜닉</dt>
+              <dd>41,900원</dd>
+            </dl>
+            
+          </div>
+
+            <form class="form">
+              <fieldset>
+                <legend>폼영역</legend>
+              </fieldset>
+            </form>
+        </div>
+      </article>
+    </article> <!-- ===================== #contentsBox -->
+
+    <footer id="footBox">
+      <div class="foot_wrap">
+        <h2><span class="hidden">MUJI</span></h2>
+        <ul class="sns_icon">
+          <li><a href="#"><span class="hidden">twitter</span></a></li>
+          <li><a href="#"><span class="hidden">instagram</span></a></li>
+          <li><a href="#"><span class="hidden">facebook</span></a></li>
+        </ul>
+        <p class="hidden">고객 만족 센터: 1577-2892</p>
+        <p class="hidden">MUJI 온라인 스토어는 롯데닷컴 LECS(www.lecs.com)을 이용하고 있습니다.</p>
+        <p>copyright 1996-2013, LOTTE.com.inc ALL right reserved.</p>
+      </div>
+    </footer> <!-- ===================== #footBox -->
+  </div> <!-- ===================== #wrap -->
 
 
   <!--javascript-->
@@ -47,6 +90,6 @@
   <script src="../bootstrap/js/bootstrap.min.js"></script>
 
   <!-- jquery -->
-  <script src="../js/src/detail.js"></script>
+  <script src="../js/src/detail/muji_detail.js"></script>
 </body>
 </html>
