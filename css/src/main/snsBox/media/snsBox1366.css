@@ -2,13 +2,4 @@
 
 @media screen and (min-width: 769px) and (max-width: 1366px) {
 
-.sns_wrap {
-  margin: 0 auto;
-  width: 80%; height: auto;}
-
-.sns_wrap>ul>li {
-  max-width: 268.797px;
-  max-height: 268.797px;
-  width: 15vw; height: 15vw;}
-  
 }

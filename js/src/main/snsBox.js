@@ -1,24 +1,24 @@
 (function($){
 
-  // === adBox 자동 슬라이드 배너 ===
-
-  var adWrap = $('.ad_wrap')
-  var adUl = adWrap.children('ul');
-  var bannerLi = adUl.children('li');
-  var bannerLength = bannerLi.length;
-  adUl.css({width:bannerLength * 100 + '%'});
-  console.log(bannerLength);
+  // === snsBox 자동 슬라이드 배너 ===
+  
+  var snsWrap = $ ('.sns_wrap');
+  var snsUl = snsWrap.children('ul');
+  var snsLi = snsUl.children('li');
+  var snsLength = snsLi.length;
+  snsUl.css({width:snsLength * 100 + '%'});
+  console.log(snsLength);
 
   var i = 0;
-  var adBanner = function(i){
+  var sns = function(i){
     //배너의 갯수를 파악해서 끝으로 오면 처음으로 이동
 
     // 배너 li의 가로값만큼씩 -(왼쪽)으로 이동
-    var num = -bannerLi.width();
-      adUl.stop().animate({marginLeft:num},function(){
-        bannerLi.eq(0).appendTo(adUl);
-        adUl.stop().css({marginLeft:0});
-        bannerLi = adUl.children('li');
+    var num = -snsLi.width();
+      snsUl.stop().animate({marginLeft:num},function(){
+        snsLi.eq(0).appendTo(snsUl);
+        snsUl.stop().css({marginLeft:0});
+        snsLi = snsUl.children('li');
       });
   };
 
@@ -29,8 +29,8 @@
 
   var startSlide = function(){
     autoStart = setInterval(function(){
-      (i < bannerLength-1) ? i+=1 : i=1;
-      adBanner(i); 
+      (i < snsLength-1) ? i+=1 : i=1;
+      sns(i); 
     }, timed);
   };
   var stopSlide = function() {clearInterval( autoStart ); };

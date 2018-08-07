@@ -2,16 +2,18 @@
 
 #snsBox {
   padding-top: 20rem;
-  padding-bottom: 20rem;
-  width: 100%; height: auto;
-  max-width: 1920px;}
-
+  width: 100%; height: auto;}
+.sns_wrap {
+  margin: auto;
+  overflow: hidden;
+  width: 90%; height: auto;}
 .sns_wrap>ul {
   margin: 0 auto;
   overflow: hidden;
   width: 100%; height: 100%;}
 .sns_wrap>ul>li {
-  float: left;}
+  float: left;
+  width: 350px; height: 350px;}
 .sns_wrap>ul>li>a {
   display: block;
   width: 100%; height: 100%;
@@ -27,23 +29,23 @@
   width: auto; height: 40px;}
 
 /*사진*/
-.sns_wrap>ul>li:nth-child(1)>a {
+.sns_li_1 a {
   background-image: url(../../../../img/insta.jpg);}
-.sns_wrap>ul>li:nth-child(2)>a {
+.sns_li_2 a {
   background-image: url(../../../../img/insta_2.jpg);}
-.sns_wrap>ul>li:nth-child(3)>a {
+.sns_li_3 a {
   background-image: url(../../../../img/insta_3.jpg);}
-.sns_wrap>ul>li:nth-child(4)>a {
+.sns_li_4 a {
   background-image: url(../../../../img/insta_4.jpg);}
-.sns_wrap>ul>li:nth-child(5)>a {
+.sns_li_5 a {
   background-image: url(../../../../img/insta_5.jpg);}
-/*.sns_wrap>ul>li:nth-child(6)>a {
+.sns_li_6 a {
   background-image: url(../../../../img/insta_6.jpg);}
-.sns_wrap>ul>li:nth-child(7)>a {
+.sns_li_7 a {
   background-image: url(../../../../img/insta_7.jpg);}
-.sns_wrap>ul>li:nth-child(8)>a {
+.sns_li_8 a {
   background-image: url(../../../../img/insta_8.jpg);}
-.sns_wrap>ul>li:nth-child(9)>a {
+.sns_li_9 a {
   background-image: url(../../../../img/insta_9.jpg);}
-.sns_wrap>ul>li:nth-child(10)>a {
+.sns_li_10 a {
   background-image: url(../../../../img/insta_10.jpg);}

@@ -10,10 +10,11 @@
   width: 100%;}
 .best_wrap h2 {
   margin: auto;
-  margin-bottom: 5rem;
-  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  font-size: 1.5rem;
   text-align: center;
-  width: auto; height: 40px;}
+  width: 7%; height: 40px;}
 .best_wrap>ul {
   width: 100%; height: 90%;}
 
@@ -23,42 +24,34 @@
   display: block;
   width: auto; height: auto;}
 
-/*사진1*/
-.best_list:nth-child(1) div {
-  background-image: url(../../../../img/best_sneakers.jpg);
-  background-position: center;
-  background-repeat: no-repeat;}
-.best_list:nth-child(1) div:hover, .best_list:nth-child(1) div:focus {
-  transition: all 500ms ease;
-  background-image: url(../../../../img/best_sneakers_2.jpg);}
 .best_list div {
-  margin: auto;}
-
-/*사진2*/
-.best_list:nth-child(2) div {
-  background-image: url(../../../../img/best_pen.jpg);
+  margin: auto;
+  transition: all 500ms ease;
   background-position: center;
   background-repeat: no-repeat;}
-.best_list:nth-child(2) div:hover, .best_list:nth-child(2) div:focus {
-  transition: all 500ms ease;
+
+.best_list:nth-child(1) div {
+  background-image: url(../../../../img/best_sneakers.jpg);}
+.best_list:nth-child(1) div:hover, 
+.best_list:nth-child(1) div:focus {
+  background-image: url(../../../../img/best_sneakers_2.jpg);}
+
+.best_list:nth-child(2) div {
+  background-image: url(../../../../img/best_pen.jpg);}
+.best_list:nth-child(2) div:hover, 
+.best_list:nth-child(2) div:focus {
   background-image: url(../../../../img/best_pen_2.jpg);}
 
-/*사진3*/
 .best_list:nth-child(3) div {
-  background-image: url(../../../../img/best_shirt.jpg);
-  background-position: center;
-  background-repeat: no-repeat;}
-.best_list:nth-child(3) div:hover, .best_list:nth-child(3) div:focus {
-  transition: all 500ms ease;
+  background-image: url(../../../../img/best_shirt.jpg);}
+.best_list:nth-child(3) div:hover, 
+.best_list:nth-child(3) div:focus {
   background-image: url(../../../../img/best_shirt_2.jpg);}
 
-/*사진4*/
 .best_list:nth-child(4) div {
-  background-image: url(../../../../img/best_cd.jpg);
-  background-position: center;
-  background-repeat: no-repeat;}
-.best_list:nth-child(4) div:hover, .best_list:nth-child(4) div:focus {
-  transition: all 500ms ease;
+  background-image: url(../../../../img/best_cd.jpg);}
+.best_list:nth-child(4) div:hover, 
+.best_list:nth-child(4) div:focus {
   background-image: url(../../../../img/best_cd_2.jpg);}
 
 .color { /*색상 속성*/
