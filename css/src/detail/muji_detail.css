@@ -1,0 +1,25 @@
+/* muji_detail.css */
+
+/* wrap */
+@import url("./wrap/wrap.css")
+
+/* headBox */
+@import url("./headBox/headBox.css");
+@import url("./headBox/media/headBox480.css");
+@import url("./headBox/media/headBox768.css");
+@import url("./headBox/media/headBox1366.css");
+@import url("./headBox/media/headBox1920.css");
+
+/* contentsBox */
+@import url("./contentsBox/contentsBox.css");
+@import url("./contentsBox/media/contentsBox480.css");
+@import url("./contentsBox/media/contentsBox768.css");
+@import url("./contentsBox/media/contentsBox1366.css");
+@import url("./contentsBox/media/contentsBox1920.css");
+
+/* footBox */
+@import url("./footBox/footBox.css");
+@import url("./footBox/media/footBox480.css");
+@import url("./footBox/media/footBox768.css");
+@import url("./footBox/media/footBox1366.css");
+@import url("./footBox/media/footBox1920.css");                

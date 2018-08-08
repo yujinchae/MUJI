@@ -1,0 +1,28 @@
+/* mobile */
+
+@media screen and (max-width: 480px) {
+  
+#img_wrap {
+  float: left;
+  width: 50%; height: auto;
+  background-color: #477;}
+
+#img_wrap ul {
+  width: 100%; height: auto;
+  background-color: #7d1;}
+
+.con {
+  float: left;
+  margin: 5px;
+  width: 100px; height: 100px;
+  background-color: #ff5;}
+.con_1 {
+  width: 90%; height: 200px;
+  background-color: #dd8;}
+#contents_wrap {
+  float: right; 
+  width: 50%: height: auto;
+  background-color: #afd;}
+
+
+}

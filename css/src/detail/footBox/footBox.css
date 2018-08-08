@@ -1,0 +1,53 @@
+/* footBox.css */
+
+#footBox {
+  width: 100%; height: auto;
+  background-color: #282828;}
+
+.foot_wrap{
+  margin: 0 auto;
+  box-sizing: border-box; 
+  padding: 50px;
+  width: 90%; height: 100%;}
+
+.foot_wrap>h2 {
+  margin: 0 auto;
+  padding: 5px;
+  width: 150px; height: 40px;
+  background-image: url(../../../../img/logo_muji_w.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: contain;}
+
+.sns_icon {
+  padding: 2rem;
+  margin: auto;
+  width: 160px; height: 50px;}
+.sns_icon>li {
+  float: left;
+  margin-right: 20px;
+  width: auto; height: auto; 
+  color: #fff;}
+.sns_icon>li:last-child{margin-right: 0;}
+
+
+.sns_icon>li>a {
+  display: block;
+  float: left;
+  color: #fff; 
+  width: 40px; height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;}
+
+.sns_icon>li:nth-child(1)>a {
+  background-image: url(../../../../img/if_twitter_online_social_media_734367.png);}
+.sns_icon>li:nth-child(2)>a {
+  background-image: url(../../../../img/if_instagram_online_social_media_photo_734395.png);}
+.sns_icon>li:nth-child(3)>a {
+  background-image: url(../../../../img/if_online_social_media_facebook_734386.png);}
+
+.foot_wrap>p {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  height: 30px;}

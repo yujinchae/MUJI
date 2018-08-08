@@ -1,0 +1,15 @@
+/* contentsBox */
+
+#contentsBox {
+  width: 100%; height: auto;
+  background-color: #33a;}
+
+#img_wrap {
+  float: left;
+  width: 60%; height: auto;
+  background-color: #477;}
+
+#contents_wrap {
+  float: right; 
+  width: 40%: height: auto;
+  background-color: #afd;}
